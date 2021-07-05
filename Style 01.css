@@ -1,19 +1,131 @@
 h1 {
     color: #025157;
-    text-align: center;
+    text-align: left;
+    font-size: 50px;
   }
 h2 {
     color: #46484c;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 17px;
 }
 
 p {color: #8b8b8bcc; 
-    font-family: verdana;
+    font-family: sans-serif;
     font-size: 20px;
 }
-button {color: #fff;
-    background-color: #025157;
+
+section-video {
+    padding-left: 24px;
+    padding-right: 204px;
+    padding-top: 12px;
+    padding-bottom: 12px; 
 }
 
-body{background-color: #fffbf7; 
+.table {
+    display: table;
+    margin: auto;
 }
 
+ul#horizontal-list {
+    min-width: 45px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list {
+    display: inline;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+}
+
+body{background-color: #bb6c1d; 
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+
+  .logo > img {
+    width: 15%;
+    height: 100%;
+  }
+
+  .navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+  }
+
+  .menu-item {
+      display: inline;
+      margin-right: 25px;
+      margin-left: 25px;
+  }
+
+  .actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .actions a {
+      color: #67b54b;
+  }
+
+  .publish {
+    /* container styles if any */
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .promo {
+    display: flex;
+    width: 70%;
+  }
+  
